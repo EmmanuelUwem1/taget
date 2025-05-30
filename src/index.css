@@ -15,6 +15,12 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+a{
+  cursor: pointer;
+}
+.transition-class {
+  transition: all 0.4s ease-in-out;
+}
 
 
 

@@ -1,5 +1,6 @@
 // import { useState } from 'react'
 import Header from "./components/header"
+import Hero from "./components/hero-section";
 
 
 function App() {
@@ -8,7 +9,7 @@ function App() {
     <>
       <Header />
       {/* Main content area */}
-      <section className="flex justify-center flex-col"></section>
+      <Hero/>
     </>
   );
 }
