@@ -9,7 +9,7 @@ function Header() {
           <img src={logo} alt="Logo" className="object-contain object-center flex w-full h-full justify-center items-center" />
         </span>
         {/* Navigation links can be added here */}n
-              <nav className="gap-20 text-[#0D0D0D]">
+              <nav className="gap-20 flex justify-center items-center text-[#0D0D0D]">
                   <a href="/">Home</a> 
                   <a href="/">Home</a> 
                   <a href="/">Home</a> 
