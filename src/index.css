@@ -15,11 +15,21 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+*{
+  outline: none;
+}
 a{
   cursor: pointer;
 }
 .transition-class {
   transition: all 0.4s ease-in-out;
+}
+.gradient-text{
+  background: linear-gradient(90deg, #11101D, #797886);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
 }
 
 
