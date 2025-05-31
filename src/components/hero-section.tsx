@@ -29,7 +29,7 @@ function Hero() {
           </div>
         </div>
         <div>
-          <h1 className="gradient-text text-7xl font-bold text-center lg:text-left">
+          <h1 className="gradient-text text-5xl lg:text-7xl font-bold text-center lg:text-left">
             Set Your Targets with Taget
           </h1>
         </div>
