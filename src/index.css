@@ -31,6 +31,11 @@ a{
   color: transparent;
   -webkit-text-fill-color: transparent;
 }
+.bg-blur{
+  -webkit-backdrop-filter: blur(15px);
+  backdrop-filter: blur(15px);
+  background-color: rgba(255, 255, 255, 0.5);
+}
 
 
 
