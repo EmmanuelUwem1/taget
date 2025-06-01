@@ -2,6 +2,8 @@
 import Header from "./components/header"
 import Hero from "./components/hero-section";
 import PartnersMarquee from "./components/partners-marquee";
+import WhoWeAre from "./components/who-we-are-section";
+import WhyJoin from "./components/why-join-section";
 
 function App() {
 
@@ -11,6 +13,8 @@ function App() {
       {/* Main content area */}
       <Hero />
       <PartnersMarquee />
+      <WhoWeAre />
+      <WhyJoin />
     </>
   );
 }
