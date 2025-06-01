@@ -12,7 +12,7 @@ function Header() {
             className="object-contain object-center flex w-full h-full justify-center items-center"
           />
         </span>
-        {/* Navigation links can be added here */}n
+        {/* Navigation links can be added here */}
         <nav className="hidden lg:flex gap-20 justify-center items-center text-[#0D0D0D]">
           <a href="/">Home</a>
           <a href="/">About Us</a>

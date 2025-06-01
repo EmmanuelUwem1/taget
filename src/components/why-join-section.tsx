@@ -32,24 +32,22 @@ function WhyJoin() {
 
   return (
     <section className="flex flex-col justify-center items-center  gap-8 px-4 sm:px-8 md:px-16 lg:px-20 xl:px-24 py-8">
-      <h1 className="text-[#0D0D0D] text-4xl font-old">{`Why Join Taget ?`}</h1>
-          <div className="flex flex-wrap lg:flex-nowrap gap-4">
-              {data.map((item, index) => (
-                <div
-                      key={index}
-                      className="flex flex-col justify-center items-center w-full lg:w-1/4 p-4 bg-white rounded-lg shadow-md"
-                  >
-                    <img
-                        src={item.imageUrl}
-                        alt={item.title}
-                          className="w-full h-40 object-cover rounded-lg mb-4"
-                      />
-                      <h2 className="text-xl font-semibold mb-2">{item.title}</h2>
-                        <p className="text-gray-600 text-center">
-                          {item.description}
-                      </p>
-                  </div>
-                ))}
+      <h1 className="text-[#0D0D0D] text-4xl font-semibold">{`Why Join Taget ?`}</h1>
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+        {data.map((item, index) => (
+          <div
+            key={index}
+            className="flex max-w-80 flex-col justify-center items-center bg-[#F0F0F0] w-full p-4 rounded-lg shadow-md"
+          >
+            <img
+              src={item.imageUrl}
+              alt={item.title}
+              className="w-full h-40 object-cover rounded-lg mb-4"
+            />
+            <h2 className="text-xl font-semibold mb-2">{item.title}</h2>
+            <p className="text-gray-600 text-center">{item.description}</p>
+          </div>
+        ))}
       </div>
     </section>
   );
