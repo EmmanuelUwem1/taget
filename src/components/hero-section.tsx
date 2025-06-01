@@ -5,7 +5,7 @@ import ProfileThree from "/Profile 3.png";
 function Hero() {
   const profiles = [ProfileOne, ProfileTwo, ProfileThree];
   return (
-    <section className="flex justify-between items-center gap-8 min-h-screen lg:flex-nowrap flex-wrap pb-8 pt-36 text-black px-4 sm:px-8 md:px-16 lg:px-20 xl:px-24">
+    <section className="flex justify-between items-center gap-8 lg:gap-4 w-full min-h-screen lg:flex-nowrap flex-wrap pb-8 pt-36 text-black px-4 sm:px-8 md:px-16 lg:px-20 xl:px-24">
       <div className="flex flex-col gap-4 justify-start items-center w-full lg:w-1/2">
         <div className="flex justify-center lg:justify-start w-full items-center gap-3.5 text-[#000000]">
           <div className="flex items-center">
@@ -46,11 +46,11 @@ function Hero() {
           </button>
         </div>
       </div>
-      <div className="flex justify-center items-center h-full mx-auto w-[80%] lg:w-[40%]">
+      <div className="flex justify-center items-center h-full mx-auto w-[80%] lg:w-[50%]">
         <img
           src={heroImage}
           alt="hero image"
-          className="object-contain object-center"
+          className="object-contain object-center w-[80%]"
         />
       </div>
     </section>
