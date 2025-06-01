@@ -42,9 +42,11 @@ function WhyJoin() {
             <img
               src={item.imageUrl}
               alt={item.title}
-              className="w-full h-40 object-cover rounded-lg mb-4"
+              className="w-44 h-44 object-cover rounded-full border-8 border-[#2F212154] mb-4"
             />
-            <h2 className="text-xl font-semibold mb-2">{item.title}</h2>
+            <h2 className="font-semibold mb-2 text-2xl text-[#0D0D0D] font-semibold">
+              {item.title}
+            </h2>
             <p className="text-gray-600 text-center">{item.description}</p>
           </div>
         ))}
