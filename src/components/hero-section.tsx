@@ -50,7 +50,7 @@ function Hero() {
         <img
           src={heroImage}
           alt="hero image"
-          className="object-contain object-center w-[80%]"
+          className="object-contain object-center w-full sm:w-[80%]"
         />
       </div>
     </section>

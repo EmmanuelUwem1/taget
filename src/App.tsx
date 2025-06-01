@@ -1,7 +1,7 @@
 // import { useState } from 'react'
 import Header from "./components/header"
 import Hero from "./components/hero-section";
-
+import PartnersMarquee from "./components/partners-marquee";
 
 function App() {
 
@@ -9,7 +9,8 @@ function App() {
     <>
       <Header />
       {/* Main content area */}
-      <Hero/>
+      <Hero />
+      <PartnersMarquee />
     </>
   );
 }
