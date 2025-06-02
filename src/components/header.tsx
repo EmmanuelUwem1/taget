@@ -2,9 +2,9 @@ import logo from "/logo.png"
 
 function Header() {
   return (
-    <header className="fixed top-0 left-0 px-4 sm:px-8 md:px-16 lg:px-20 xl:px-24 py-2 sm:py-4 md:py-10 flex justify-center items-center w-full z-[1000]">
+    <header className="fixed top-0 left-0 px-4 sm:px-8 md:px-16 lg:px-20 xl:px-24 py-2 sm:py-4 flex justify-center items-center w-full z-[1000]">
       {/* the heade with border */}
-      <div className=" py-4 px-4 sm:px-8 md:px-16 flex justify-between items-center rounded-full w-full border bg-blur border-[#000000]">
+      <div className="py-4 px-4 sm:px-8 md:px-16 flex justify-between items-center rounded-full w-full border bg-blur border-[#000000]">
         <span className="relative flex items-center justify-center h-6 w-20">
           <img
             src={logo}
