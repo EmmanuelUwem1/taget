@@ -19,7 +19,7 @@ function Header() {
           <a href="/">Events</a>
           <a href="/">Contact</a>
         </nav>
-        <button className="bg-[#0D0D0D] rounded-[6px] py-3.5 px-6 transition-class hover:opacity-80 cursor-pointer">Join Us</button>
+        <button className="bg-[#0D0D0D] rounded-[6px] py-2 px-6 transition-class hover:opacity-80 cursor-pointer text-white">Join Us</button>
       </div>
     </header>
   );

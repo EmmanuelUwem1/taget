@@ -1,5 +1,5 @@
 import Marquee from "react-fast-marquee";
-import { PartnersData } from "./partners-data";
+import { PartnersData } from "../data/partners-data";
 function PartnersMarquee() {
     return (
       <div className="px-4 sm:px-8 md:px-16 lg:px-20 xl:px-24 pb-8 pt-4">
