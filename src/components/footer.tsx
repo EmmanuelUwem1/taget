@@ -4,8 +4,8 @@ function Footer() {
       <div className="container mx-auto flex flex-col md:flex-row justify-between items-start gap-8 px-6">
         {/* Logo & Tagline */}
         <div className="flex flex-col items-start md:w-1/4">
-          <img src="/logo.png" alt="Logo" className="w-20 mb-3" />
-          <p className="text-gray-400 text-sm">
+          <img src="/logo-white.png" alt="Logo" className="w-24 mb-3" />
+          <p className="text-[#FFFFFF] text-sm">
             Building the future, one target at a time.
           </p>
         </div>
@@ -43,18 +43,18 @@ function Footer() {
           <ul className="mt-3 space-y-2">
             <li>
               <a
-                href="https://twitter.com/yourTaget"
+                href="https://twitter.com/@yourtaget"
                 className="text-gray-400 hover:text-white"
               >
-                Twitter
+                Twitter @yourtaget
               </a>
             </li>
             <li>
               <a
-                href="mailto:info@gmail.com"
+                href="mailto:infotagetproject.com"
                 className="text-gray-400 hover:text-white"
               >
-                info@gmail.com
+                Email info@tagetproject.com
               </a>
             </li>
           </ul>
@@ -69,7 +69,9 @@ function Footer() {
               placeholder="Enter your email"
               className="p-3 w-full text-black outline-none"
             />
-            <button className="bg-black text-white px-5 py-3">Send</button>
+            <button className="bg-black text-white px-5 cursor-pointer py-3">
+              Send
+            </button>
           </div>
         </div>
       </div>
@@ -79,7 +81,8 @@ function Footer() {
 
       {/* Copyright */}
       <p className="text-gray-400 text-center text-sm mt-4">
-        © {new Date().getFullYear()} Taget. All rights reserved.
+        © {new Date().getFullYear()} Taget. All rights reserved. | Privacy
+        Policy | Terms of Service
       </p>
     </footer>
   );
