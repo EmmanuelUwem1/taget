@@ -7,7 +7,7 @@ import WhyJoin from "./components/why-join-section";
 import EventsSection from "./components/events-section";
 import Contact from "./components/contact";
 import Join from "./components/join";
-
+import Footer from "./components/footer";
 function App() {
 
   return (
@@ -21,6 +21,7 @@ function App() {
       <EventsSection />
       <Contact />
       <Join />
+      <Footer />
     </>
   );
 }

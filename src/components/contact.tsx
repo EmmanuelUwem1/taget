@@ -1,13 +1,15 @@
 
 function Contact() {
   return (
-    <section className="flex justify-center items-center flex-col p-10 bg-white rounded-[30px] shadow-lg border border-gray-700 mx-4 sm:mx-8 md:mx-16 lg:mx-32">
+    <section className="flex justify-center items-center flex-col p-10 bg-white rounded-[30px] shadow-lg border border-gray-700  sm:w-fit w-[90%] mx-auto">
       {/* Heading */}
       <h2 className="text-4xl font-bold text-black">Talk to Us</h2>
-      <p className="text-[#0D0D0D] text-lg mt-2">LET’S FIND YOUR TARGET</p>
+      <p className="text-[#0D0D0D] text-lg font-medium mt-2">
+        LET’S FIND YOUR TARGET
+      </p>
 
       {/* Form */}
-      <form className="mt-6 w-[90%] max-w-lg text-[#333333]">
+      <form className="mt-6 w-full md:w-[90%] max-w-xl text-[#333333]">
         {/* Two-column row */}
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
           <input
@@ -50,14 +52,12 @@ function Contact() {
         </div>
 
         {/* Submit button */}
-        <div className="mt-6 flex justify-center">
           <button
             type="submit"
-            className="px-6 py-3 bg-black text-white rounded-md hover:bg-gray-900"
+            className="mt-4 flex w-full justify-center px-6 py-3 bg-black text-white rounded-md hover:opacity-80 transition-class cursor-pointer"
           >
             Submit
           </button>
-        </div>
       </form>
     </section>
   );
