@@ -3,16 +3,16 @@ import Home from "./pages/home-page";
 import Header from "./components/header";
 import Footer from "./components/footer";
 import EventDetails from "./pages/events/page";
+import ScrollToTop from "./components/scroll-to-top";
 function App() {
   return (
     <>
       <Header /> {/* Navigation bar */}
+      <ScrollToTop /> {/* Ensures smooth scrolling */}
       <Routes>
         <Route path="/" element={<Home />} />
-
         <Route path="/events/:id" element={<EventDetails />} />{" "}
         {/* Dynamic Route */}
-
       </Routes>
       <Footer /> {/* Footer */}
     </>

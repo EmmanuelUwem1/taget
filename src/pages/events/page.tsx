@@ -15,10 +15,10 @@ function EventDetails() {
   }
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen pt-28 max-w-3xl mx-auto">
+    <div className="flex flex-col items-center justify-center min-h-screen pt-28 max-w-3xl mx-auto px-4 sm:px-8 md:px-16 pb-16">
       {/* Breadcrumb Navigation */}
       <nav className="self-start text-gray-600 text-sm mb-4">
-        <Link to="/events" className="hover:underline">
+        <Link to="/#events" className="hover:underline">
           Events
         </Link>{" "}
         /<span className="text-black font-medium"> {event.title}</span>

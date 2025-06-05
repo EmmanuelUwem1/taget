@@ -1,17 +1,18 @@
 
-
+import { Link } from "react-router-dom";
 
 type EventCardProps = {
   image: string;
   title: string;
   date: string;
   time: string;
+  id: number;
   onRegister: () => void;
 };
 
-const EventCard = ({ image, title, date, time, onRegister }: EventCardProps) => {
+const EventCard = ({ image, title,id, date, time, onRegister }: EventCardProps) => {
   return (
-    <div className="max-w-sm rounded-lg overflow-hidden cursor-pointer hover:shadow-lg bg-white p-4">
+    <Link to={`/events/${id}`} className="max-w-sm rounded-lg overflow-hidden cursor-pointer hover:shadow-lg bg-white p-4">
       <img
         className="w-full h-48 object-cover rounded-lg"
         src={image}
@@ -29,7 +30,7 @@ const EventCard = ({ image, title, date, time, onRegister }: EventCardProps) => 
           Register
         </button>
       </div>
-    </div>
+    </Link>
   );
 };
 
