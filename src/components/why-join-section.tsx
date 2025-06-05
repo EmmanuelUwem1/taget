@@ -32,7 +32,7 @@ function WhyJoin() {
 
   return (
     <section className="flex flex-col justify-center items-center  gap-8 px-4 sm:px-8 md:px-16 lg:px-20 xl:px-24 pt-8 pb-16">
-      <h1 className="text-[#0D0D0D] text-4xl font-semibold">{`Why Join Taget ?`}</h1>
+      <h1 className="text-[#0D0D0D] text-3xl sm:text-4xl font-semibold">{`Why Join Taget ?`}</h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
         {data.map((item, index) => (
           <div

@@ -8,7 +8,7 @@ function WhoWeAre() {
         </h2>
         <div className="flex justify-between items-center px-4 sm:px-8 md:px-16 lg:px-20 gap-8 py-8 xl:px-24 flex-wrap-reverse lg:flex-nowrap w-full">
           <div className="flex flex-col justify-center items-center gap-2 text-white w-full lg:w-[50%] ">
-            <span className="text-white text-4xl font-medium">Welcome to Taget</span>
+            <span className="text-white text-3xl sm:text-4xl font-medium">Welcome to Taget</span>
             <span className="flex w-full px-4 justify-center items-center ">
               <img src={arrow} alt="arrow" />
             </span>

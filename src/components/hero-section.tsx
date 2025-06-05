@@ -20,11 +20,11 @@ function Hero() {
             ))}
           </div>{" "}
           <div className="flex flex-col justify-center items-center">
-            <span className="font-extrabold text-2xl text">200+</span>
+            <span className="font-extrabold text-lg sm:text-2xl text">200+</span>
             <span>Community</span>
           </div>
           <div className="flex flex-col justify-center items-center">
-            <span className="font-extrabold text-2xl">7+</span>
+            <span className="font-extrabold text-lg sm:text-2xl">7+</span>
             <span>Partners</span>
           </div>
         </div>
