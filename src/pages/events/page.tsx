@@ -1,6 +1,7 @@
 import { useParams, useNavigate } from "react-router-dom";
 import { events } from "../../data/events-data";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 function EventDetails() {
   const { id } = useParams(); // Get event ID from URL
@@ -38,18 +39,22 @@ function EventDetails() {
       className="flex flex-col items-center justify-center min-h-screen pt-28 max-w-3xl mx-auto px-4 sm:px-8 md:px-16 pb-16"
     >
       {/* Breadcrumb Navigation */}
-      <nav className="self-start text-gray-600 text-sm mb-4">
-        <button onClick={handleScrollToEvents} className="hover:underline">
-          Events
-        </button>{" "}
-        / <span className="text-black font-medium">{event.title}</span>
+      <nav className="self-start flex justify-start items-center gap-4 text-gray-600 text-sm mb-4">
+        <Link to='/' className="bg-[#0D0D0D] rounded-[6px] sm:py-3 py-2 px-6 transition-class hover:opacity-80 cursor-pointer text-white">
+          Back
+        </Link>
+        <div>
+          <button onClick={handleScrollToEvents} className="hover:underline">
+            Events
+          </button>{" "}
+          / <span className="text-black font-medium">{event.title}</span>
+        </div>
       </nav>
 
       {/* Event Title */}
       <h1 className="sm:text-4xl text-3xl text-left font-bold text-black sm:text-center">
         {event.title}
       </h1>
-
 
       {/* Event Image */}
       <img
