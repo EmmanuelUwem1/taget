@@ -46,7 +46,7 @@ function EventDetails() {
       </nav>
 
       {/* Event Title */}
-      <h1 className="text-4xl font-bold text-black text-center">
+      <h1 className="sm:text-4xl text-3xl text-left font-bold text-black sm:text-center">
         {event.title}
       </h1>
 
