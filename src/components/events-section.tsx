@@ -5,7 +5,7 @@ function EventsSection() {
   return (
     <section className="flex justify-center items-center flex-col gap-6 px-4 py-4">
       <span className="text-xl text-gray-700 font-semibold">Our Events</span>
-      <h1 className="text-black font-bold text-4xl text-center">
+      <h1 className="text-black font-bold text-3xl sm:text-4xl text-left sm:text-center">
         Grow Your Skills, Expand Your Network, and Have Fun!
       </h1>
 

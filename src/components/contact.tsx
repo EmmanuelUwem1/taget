@@ -1,7 +1,7 @@
 
 function Contact() {
   return (
-    <section className="flex justify-center items-center flex-col p-10 bg-white rounded-[30px] shadow-lg border border-gray-700  sm:w-fit w-[90%] mx-auto">
+    <section className="flex justify-center items-center flex-col sm:p-10 p-4 bg-white rounded-[30px] shadow-lg border border-gray-700  sm:w-fit w-[90%] mx-auto">
       {/* Heading */}
       <h2 className="text-4xl font-bold text-black">Talk to Us</h2>
       <p className="text-[#0D0D0D] text-lg font-medium mt-2">

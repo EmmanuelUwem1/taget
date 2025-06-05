@@ -2,8 +2,8 @@
 function Join() {
   return (
     <div className="flex justify-center items-center py-16 px-4 sm:px-8 md:px-16">
-      <div className="bg-[#0D0D0D] rounded-[32px] flex w-[90%] flex-col justify-center gap-8 p-10">
-        <h2 className="text-[#FFFFFF] text-3xl font-bold pt-3 mx-auto">
+      <div className="bg-[#0D0D0D] rounded-[32px] flex w-full sm:w-[90%] flex-col justify-center gap-8 p-6 sm:p-10">
+        <h2 className="text-[#FFFFFF] text-2xl sm:text-3xl font-bold pt-3 mx-auto">
           Join Our Community
         </h2>
 
