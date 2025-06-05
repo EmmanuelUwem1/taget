@@ -1,3 +1,51 @@
+# Taget Website
+> **Set Goals, Learn, and Grow in the Web3 Ecosystem**  
+
+Taget is a **community-driven Web3 platform** built to onboard, educate, and empower individuals in **Decentralized Autonomous Organizations (DAOs)**. It provides a seamless experience through **React, Vite, Framer Motion, React Router DOM, and Tailwind CSS**, ensuring **high performance, smooth animations, and dynamic routing**.
+
+## 📌 Features
+- ⚡ **Built with React + Vite** for fast development and optimized performance  
+- 🎭 **Framer Motion animations** for smooth transitions and interactive UI elements  
+- 🔗 **React Router DOM** for efficient client-side navigation  
+- 🎨 **Tailwind CSS** for modern, responsive styling  
+- 📅 **Dynamic page rendering** for events and community interactions  
+- 🏗 **Smooth scrolling & automatic scroll-to-section functionality**  
+- 🔍 **SEO-friendly meta tags and optimized loading**  
+
+## ⚡ Technology Stack
+| **Technology**           | **Usage**                                    |
+|--------------------------|----------------------------------------------|
+| **React**                | Component-based UI development               |
+| **Vite**                 | Fast bundling & optimized HMR                |
+| **Framer Motion**        | Smooth animations & page transitions         |
+| **React Router DOM**     | Client-side navigation & dynamic routing     |
+| **Tailwind CSS**         | Utility-first styling for responsiveness     |
+| **TypeScript**           | Type safety & better maintainability         |
+| **Vercel**       | Deployment platform                          |
+
+## Project Structure 
+
+/taget-website
+ ├── src/
+ │   ├── components/         # Reusable UI components (Navbar, Footer, Hero, etc.)
+ │   ├── pages/              # Page views (Home, Events, About, Contact, etc.)
+ │   ├── data/               # Static data files (events, community info, etc.)
+ │   ├── assets/             # Images, logos, icons
+ │   ├── styles/             # Tailwind CSS styles
+ │   ├── App.tsx             # Main App component with routes
+ │   ├── main.tsx            # Entry point of the application
+ │   ├── vite.config.ts      # Vite configuration
+ │   ├── package.json        # Dependencies & scripts
+ │   ├── README.md           # Documentation
+
+
+## 🚀 Installation & Setup
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/your-username/taget-website.git
+cd taget-website
+
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
