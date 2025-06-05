@@ -50,9 +50,6 @@ function EventDetails() {
         {event.title}
       </h1>
 
-      <p className="text-gray-600 mt-2 text-center">
-        {event.date} | {event.time}
-      </p>
 
       {/* Event Image */}
       <img
@@ -60,6 +57,9 @@ function EventDetails() {
         alt={event.title}
         className="w-full h-auto my-4 rounded-lg shadow-md"
       />
+      <p className="text-gray-600 mt-2 text-center">
+        {event.date} | {event.time}
+      </p>
 
       {/* Event Description */}
       <div
