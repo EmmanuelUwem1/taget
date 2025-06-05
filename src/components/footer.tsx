@@ -20,17 +20,17 @@ function Footer() {
               </a>
             </li>
             <li>
-              <a href="/about" className="text-gray-400 hover:text-white">
+              <a href="#about" className="text-gray-400 hover:text-white">
                 About Us
               </a>
             </li>
             <li>
-              <a href="/events" className="text-gray-400 hover:text-white">
+              <a href="#events" className="text-gray-400 hover:text-white">
                 Events
               </a>
             </li>
             <li>
-              <a href="/contact" className="text-gray-400 hover:text-white">
+              <a href="#contact" className="text-gray-400 hover:text-white">
                 Contact
               </a>
             </li>

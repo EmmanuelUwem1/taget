@@ -1,27 +1,48 @@
-import { useParams } from "react-router-dom";
+import { useParams, useNavigate } from "react-router-dom";
 import { events } from "../../data/events-data";
-import { Link } from "react-router-dom";
+import { motion } from "framer-motion";
 
 function EventDetails() {
   const { id } = useParams(); // Get event ID from URL
+  const navigate = useNavigate(); // Enable navigation
   const event = events.find((event) => event.id === parseInt(id!, 10)); // Find event by ID
 
   if (!event) {
     return (
-      <div className="flex justify-center items-center min-h-screen text-center p-6">
+      <motion.div
+        initial={{ opacity: 0, y: -20 }}
+        animate={{ opacity: 1, y: 0 }}
+        exit={{ opacity: 0, y: 20 }}
+        transition={{ duration: 0.5 }}
+        className="flex justify-center items-center min-h-screen text-center p-6"
+      >
         <h2 className="text-2xl font-bold text-gray-500">Event Not Found</h2>
-      </div>
+      </motion.div>
     );
   }
 
+  // Navigate & scroll smoothly to #events section
+  const handleScrollToEvents = () => {
+    navigate("/"); // Navigate to homepage first
+    setTimeout(() => {
+      document.getElementById("events")?.scrollIntoView({ behavior: "smooth" });
+    }, 100); // Delay ensures homepage loads first
+  };
+
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen pt-28 max-w-3xl mx-auto px-4 sm:px-8 md:px-16 pb-16">
+    <motion.div
+      initial={{ opacity: 0, x: -50 }}
+      animate={{ opacity: 1, x: 0 }}
+      exit={{ opacity: 0, x: 50 }}
+      transition={{ duration: 0.5 }}
+      className="flex flex-col items-center justify-center min-h-screen pt-28 max-w-3xl mx-auto px-4 sm:px-8 md:px-16 pb-16"
+    >
       {/* Breadcrumb Navigation */}
       <nav className="self-start text-gray-600 text-sm mb-4">
-        <Link to="/#events" className="hover:underline">
+        <button onClick={handleScrollToEvents} className="hover:underline">
           Events
-        </Link>{" "}
-        /<span className="text-black font-medium"> {event.title}</span>
+        </button>{" "}
+        / <span className="text-black font-medium">{event.title}</span>
       </nav>
 
       {/* Event Title */}
@@ -42,10 +63,10 @@ function EventDetails() {
 
       {/* Event Description */}
       <div
-        className="text-gray-700 mt-4 text-left"
+        className="text-gray-700 mt-4 text-left blog-content"
         dangerouslySetInnerHTML={{ __html: event.description }}
       />
-    </div>
+    </motion.div>
   );
 }
 

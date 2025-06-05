@@ -29,7 +29,7 @@ function EventsSection() {
           Join Us
         </button>
       </div>
-    </section>
+    </section>  
   );
 }
 
