@@ -1,4 +1,6 @@
 # Taget Website
+![logo-white](https://github.com/user-attachments/assets/a58c78d7-2967-421c-b3de-51c92c068065)
+
 > **Set Goals, Learn, and Grow in the Web3 Ecosystem**  
 
 Taget is a **community-driven Web3 platform** built to onboard, educate, and empower individuals in **Decentralized Autonomous Organizations (DAOs)**. It provides a seamless experience through **React, Vite, Framer Motion, React Router DOM, and Tailwind CSS**, ensuring **high performance, smooth animations, and dynamic routing**.
