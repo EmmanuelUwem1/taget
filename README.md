@@ -3,7 +3,7 @@
 
 > **Set Goals, Learn, and Grow in the Web3 Ecosystem**  
 
-Taget is a **community-driven Web3 platform** built to onboard, educate, and empower individuals in **Decentralized Autonomous Organizations (DAOs)**. It provides a seamless experience through **React, Vite, Framer Motion, React Router DOM, and Tailwind CSS**, ensuring **high performance, smooth animations, and dynamic routing**.
+Taget is a **community-driven Web3 platform** built to onboard, educate, and empower individuals in **Decentralized Autonomous Organizations (DAOs)**. This website provides a seamless experience through **React, Vite, Framer Motion, React Router DOM, and Tailwind CSS**, ensuring **high performance, smooth animations, and dynamic routing**.
 
 ## 📌 Features
 - ⚡ **Built with React + Vite** for fast development and optimized performance  
